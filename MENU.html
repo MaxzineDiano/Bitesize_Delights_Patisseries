@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="MENU.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <a href="HOME.html" class="logo"><img src="logo.png" alt="Logo"></a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <ul class="navbar">
+        <li><a href="HOME.html">Home</a></li>
+        <li><a href="MENU.html" class="active">Menu</a></li>
+        <li><a href="ABOUTUS.html">About Us</a></li>
+        <li><a href="CONTACTS.html">Contacts</a></li>
+        <li><a href="#" id="logout-button">Logout</a></li>
+    </ul>
+    <div class="header-icon">
+        <i class='bx bx-cart' id="cart-icon"></i>
+        
+    </div>
+</header>
+
+<div class="category-grid">
+    <a href="#cupcakes" class="category-link">
+        <div class="category-container">
+            <h2>Cupcakes</h2>
+            <img src="3.png" alt="Cupcakes">
+        </div>
+    </a>
+
+    <a href="#cookies" class="category-link">
+        <div class="category-container">
+            <h2>Cookies</h2>
+            <img src="2.png" alt="Cookies">
+        </div>
+    </a>
+
+    <a href="#donuts" class="category-link">
+        <div class="category-container">
+            <h2>Donuts</h2>
+            <img src="1.png" alt="Donuts">
+        </div>
+    </a>
+
+    <a href="#tarts" class="category-link">
+        <div class="category-container">
+            <h2>Tarts</h2>
+            <img src="4.png" alt="Tarts">
+        </div>
+    </a>
+</div>
+<br>
+
+<section class="products" id="cupcakes">
+    <div class="container">
+        <div class="heading">
+            <h2>Cupcakes</h2>
+            <br>
+                <h4>BiteSize Delights offers you the following:</h4>
+        </div>
+
+
+        <div class="product-container">
+                <div class="menu-box">
+                    <img src="Candy Apple Cupcakes.png" alt="Candy Apple Cupcakes">
+                    <div class="product-info">
+                        <h4>Candy Apple Cupcakes</h4>
+                        <h5>1 dozen = ₱430.00</h5>
+                        <p>"Candy Apple Cupcakes are a delightful twist on the classic fall treat. These cupcakes typically feature a moist apple-flavored cake base, reminiscent of the crisp sweetness of a candy apple. Topped with a generous swirl of creamy caramel or toffee frosting, they capture the essence of caramel-coated apples found at autumn fairs. Some recipes even include a surprise center of caramel or apple filling,adding an extra layer of indulgence".</p>
+                        <button class="add-to-cart-btn" data-name="Candy Apple Cupcakes"data-price="430">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-box">
+                    <img src="Cookies And Cream Easter Egg Cupcakes.png" alt="Cookies And Cream Easter Egg Cupcakes">
+                    <div class="product-info">
+                        <h4>Cookies And Cream Easter Egg Cupcakes</h4>
+                        <h5>1 dozen = ₱380.00</h5>
+                        <p>These cupcakes feature a moist and fluffy chocolate base, topped with a generous swirl of creamy vanilla frosting, adorned with crushed cookies resembling a nest, and finished with mini chocolate eggs nestled within.</p>
+                        <button class="add-to-cart-btn" data-name="Cookies And Cream Easter Egg Cupcakes" data-price="380">Add to Cart</button>>
+                    </div>
+                </div>
+
+                <div class="menu-box">
+                    <img src="Gingerbread Cookies And Cream Cupcakes.png" alt="Gingerbread Cookies And Cream Cupcakes">
+                    <div class="product-info">
+                        <h4>Gingerbread Cookies And Cream Cupcakes</h4>
+                        <h5>1 dozen = ₱420.00</h5>
+                        <p>These cupcakes feature a moist and spiced gingerbread cake base, infused with aromatic ginger, cinnamon, and cloves, reminiscent of traditional gingerbread cookies. Topping these delectable treats is a creamy frosting swirled with crushed gingerbread cookies, adding a delightful crunch and extra layer of gingerbread flavor. </p>
+                        <button class="add-to-cart-btn" data-name="Gingerbread Cookies And Cream Cupcakes" data-price="420">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-box">
+                    <img src="Gingerbread Tiramisu Cupcakes.png" alt="Gingerbread Tiramisu Cupcakes">
+                    <div class="product-info">
+                        <h4>Gingerbread Tiramisu Cupcakes</h4>
+                        <h5>1 dozen = ₱300.00</h5>
+                        <p>These cupcakes combine the warm, spiced flavors of gingerbread with the rich, creamy taste of tiramisu. The cupcakes are infused with gingerbread spices like cinnamon, ginger, and cloves, then filled with a creamy tiramisu filling made with mascarpone cheese, coffee, and a hint of rum. Topped with a dollop of whipped cream and a dusting of cocoa powder, these cupcakes are a delightful twist on the classic Italian dessert.</p>
+                        <button class="add-to-cart-btn" data-name="Gingerbread Tiramisu Cupcakes" data-price="300">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-box">
+                    <img src="Midnight Mint Mocha Frappuccino Cupcakes.png" alt="Midnight Mint Mocha Frappuccino Cupcakes">
+                    <div class="product-info">
+                        <h4>Midnight Mint Mocha Frappuccino Cupcakes</h4>
+                        <h5>1 dozen = ₱460.00</h5>
+                        <p>Inspired by the popular Starbucks drink, these cupcakes are a delicious blend of chocolate, coffee, and mint flavors. The chocolate cupcakes are infused with espresso and topped with a creamy mint frosting reminiscent of the famous frappuccino. A drizzle of chocolate ganache and a sprinkle of crushed mint candies complete the indulgent treat.</p>
+                        <button class="add-to-cart-btn" data-name="Midnight Mint Mocha Frappuccino Cupcakes" data-price="460">Add to Cart</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="products" id="cookies">
+    <div class="container">
+        <div class="heading">
+            <h2>Cookies</h2>
+            <br>
+                <h4>BiteSize Delights offers you the following:</h4>
+            </div>
+            </div>
+        <div class="product-container">
+            <div class="menu-box">
+                <img src="Biscoff Cookes.png" alt="Biscoff Cookies">
+                <div class="product-info">
+                    <h4>Biscoff Cookies</h4>
+                    <h5>1 dozen = ₱175.00</h5>
+                    <p>Biscoff cookies are crunchy, caramelized biscuits with a hint of cinnamon. Made from a spiced cookie dough, they're baked until golden brown and have a unique caramelized flavor that pairs perfectly with coffee or tea. These cookies are often enjoyed on their own or used as a base for desserts like cheesecake crusts or cookie butter spreads.</p>
+                    <button class="add-to-cart-btn" data-name="Biscoff Cookies" data-price="175">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Chocolate Chips Cookies.png" alt="Chocolate Chips Cookies">
+                <div class="product-info">
+                    <h4>Chocolate Chips Cookies</h4>
+                    <h5>1 dozen = ₱140.00</h5>
+                    <p>Classic chocolate chip cookies are a beloved treat worldwide. These cookies feature a soft and chewy texture with a buttery, vanilla-infused dough studded with chunks of rich, melty chocolate.</p>
+                    <button class="add-to-cart-btn" data-name="Chocolate Chips Cookies" data-price="140">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Oatmeal and Raisins Cookies.png" alt="Oatmeal and Raisins Cookies">
+                <div class="product-info">
+                    <h4>Oatmeal and Raisins Cookies</h4>
+                    <h5>1 dozen = ₱125.00</h5>
+                    <p>Oatmeal and raisin cookies offer a delightful combination of hearty oats, plump raisins, and warm spices like cinnamon and nutmeg. The chewy texture of the oats pairs wonderfully with the sweetness of the raisins, creating a comforting treat that's perfect for snacking any time of day. These cookies often have a hint of molasses for added depth of flavor.</p>
+                    <button class="add-to-cart-btn" data-name="Oatmeal and Raisins Cookies" data-price="125">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Red Velvet Cookies.png" alt="Red Velvet Cookies">
+                <div class="product-info">
+                    <h4>Red Velvet Cookies</h4>
+                    <h5>1 dozen = ₱135.00</h5>
+                    <p>Red velvet cookies capture the iconic flavor of red velvet cake in a portable, bite-sized form. These vibrant cookies are made with cocoa powder, buttermilk, and a touch of red food coloring for their signature hue. They're often topped with a cream cheese frosting drizzle or white chocolate chips for an extra touch of sweetness and decoration.</p>
+                    <button class="add-to-cart-btn" data-name="Red Velvet Cookies" data-price="135">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Triple Chocolate Cookies.png" alt="Triple Chocolate Cookies">
+                <div class="product-info">
+                    <h4>Triple Chocolate Cookies</h4>
+                    <h5>1 dozen = ₱230.00</h5>
+                    <p>Triple chocolate cookies are a chocolate lover's dream come true. These decadent cookies feature a rich chocolate dough studded with three types of chocolate: cocoa powder, chocolate chips, and chunks of chopped chocolate.</p>
+                    <button class="add-to-cart-btn" data-name="Triple Chocolate Cookies" data-price="230">Add to Cart</button>
+                </div>
+            </div>
+</section>
+
+<section class="products" id="donuts">
+    <div class="container">
+        <div class="heading">
+            <h2>Donuts</h2>
+            <br>
+                <h4>BiteSize Delights offers you the following:</h4>
+        </div>
+    </div>
+            <div class="product-container">
+            <div class="menu-box">
+                <img src="Creme Brûlée Heart Donuts.png" alt="Creme Brûlée Heart Donuts">
+                <div class="product-info">
+                    <h4>Creme Brûlée Heart Donuts</h4>
+                    <h5>1 dozen = ₱220.00</h5>
+                    <p>Soft, fluffy donuts filled with creamy custard, topped with a caramelized sugar crust, reminiscent of the classic dessert.</p>
+                    <button class="add-to-cart-btn" data-name="Creme Brûlée Heart Donuts" data-price="220">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Glazed Chocolate Covered Espresso Bean Donuts.png" alt="Glazed Chocolate Covered Espresso Bean Donuts">
+                <div class="product-info">
+                    <h4>Glazed Chocolate Covered Espresso Bean Donuts</h4>
+                    <h5>1 dozen = ₱250.00</h5>
+                    <p> Rich chocolate donuts infused with espresso flavor, topped with a shiny glaze and adorned with crunchy chocolate-covered espresso beans for a delightful caffeine kick.</p>
+                    <button class="add-to-cart-btn" data-name="Glazed Chocolate Covered Espresso Bean Donuts" data-price="250">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Maple Glazed Donuts.png" alt="Maple Glazed Donuts">
+                <div class="product-info">
+                    <h4>Maple Glazed Donuts</h4>
+                    <h5>1 dozen = ₱150.00</h5>
+                    <p>Traditional fried donuts with a sweet and sticky maple glaze, offering a comforting taste of maple syrup in every bite.</p>
+                    <button class="add-to-cart-btn" data-name="Maple Glazed Donuts" data-price="150">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Matcha Chocolate Glazed Donuts.png" alt="Matcha Chocolate Glazed Donuts">
+                <div class="product-info">
+                    <h4>Matcha Chocolate Glazed Donuts</h4>
+                    <h5>1 dozen = ₱230.00</h5>
+                    <p>Unique donuts with a vibrant green matcha flavor, coated in a glossy chocolate glaze, creating a harmonious balance of bitter and sweet.</p>
+                    <button class="add-to-cart-btn" data-name="Matcha Chocolate Glazed Donuts" data-price="230">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="S'Mores Doughnuts with Chocolate Glaze.png" alt="S'Mores Doughnuts with Chocolate Glaze">
+                <div class="product-info">
+                    <h4>S'Mores Doughnuts with Chocolate Glaze</h4>
+                    <h5>1 dozen = ₱450.00</h5>
+                    <p>Indulgent donuts inspired by the classic campfire treat, featuring a chocolate-glazed exterior and a gooey marshmallow filling, topped with crushed graham crackers for added texture.</p>
+                    <button class="add-to-cart-btn" data-name="S'Mores Doughnuts with Chocolate Glaze" data-price="450">Add to Cart</button>
+                </div>
+            </div>
+</section>
+
+<section class="products" id="tarts">
+    <div class="container">
+        <div class="heading">
+            <h2>Tarts</h2>
+            <br>
+                <h4>BiteSize Delights offers you the following:</h4>
+        </div>
+    </div>
+
+        <div class="product-container">
+            <div class="menu-box">
+                <img src="Black Forest Chocolate Tart.jpg" alt="Black Forest Chocolate Tart">
+                <div class="product-info">
+                    <h4>Black Forest Chocolate Tart</h4>
+                    <h5>Whole = ₱150.00</h5>
+                    <p>Decadent tart with a buttery chocolate crust, filled with layers of rich chocolate ganache and tart cherries, topped with whipped cream for a luxurious finish.</p>
+                    <button class="add-to-cart-btn" data-name="Black Forest Chocolate Tart" data-price="150">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Caramelized White Chocolate Tart with Biscoff Crust.jpg" alt="Caramelized White Chocolate Tart with Biscoff Crust">
+                <div class="product-info">
+                    <h4>Caramelized White Chocolate Tart with Biscoff Crust</h4>
+                    <h5>Whole = ₱380.00</h5>
+                    <p>Elegant tart with a crunchy Biscoff cookie crust, filled with caramelized white chocolate ganache, offering a sophisticated twist on traditional caramel flavors.</p>
+                    <button class="add-to-cart-btn" data-name="Caramelized White Chocolate Tart with Biscoff Crust" data-price="380">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Chocolate Ganache Tart.png" alt="Chocolate Ganache Tart">
+                <div class="product-info">
+                    <h4>Chocolate Ganache Tart</h4>
+                    <h5>Whole = ₱200.00</h5>
+                    <p>Classic tart with a crisp pastry shell, filled with smooth and velvety chocolate ganache, delivering an intense cocoa experience in every bite.</p>
+                    <button class="add-to-cart-btn" data-name="Chocolate Ganache Tart" data-price="200">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Creme Brulee Tart.png" alt="Creme Brulee Tart">
+                <div class="product-info">
+                    <h4>Creme Brulee Tart</h4>
+                    <h5>Whole = ₱220.00</h5>
+                    <p>Delicate tart with a flaky pastry base, filled with luscious vanilla custard and topped with a caramelized sugar crust, providing a luxurious spin on the beloved French dessert.</p>
+                    <button class="add-to-cart-btn" data-name="Creme Brulee Tart" data-price="220">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="menu-box">
+                <img src="Lemon Curd Cheesecake Tart with Basil Lemon Crust.png" alt="Lemon Curd Cheesecake Tart with Basil Lemon Crust">
+                <div class="product-info">
+                    <h4>Lemon Curd Cheesecake Tart with Basil Lemon Crust</h4>
+                    <h5>Whole = ₱350.00</h5>
+                    <p>Refreshing tart featuring a zesty lemon curd cheesecake filling nestled in a fragrant basil-infused crust, offering a perfect balance of citrusy sweetness and herbal notes.</p>
+                    <button class="add-to-cart-btn" data-name="Lemon Curd Cheesecake Tart with Basil Lemon Crust" data-price="350">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="cart" id="cart">
+    <h2>Shopping Cart</h2>
+    <br>
+    <hr>
+    <ul class="cart-items" id="cart-items"></ul>
+    <hr>
+    <p class="cart-total" id="cart-total">Total: ₱0.00</p>
+    <br>
+    <button class="checkout-btn" id="checkout-btn">Checkout</button>
+    <button class="cancel-btn" id="cancel-btn">Cancel</button>
+</div>
+
+<div class="notification" id="notification">Item added to cart!</div>
+
+<div class="checkout-form-overlay" id="checkout-form-overlay">
+    <div class="checkout-form-container">
+        <span class="close-btn" id="checkout-close-btn">&times;</span>
+        <h2>Checkout</h2>
+        <form id="checkout-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="contact">Contact Number:</label>
+            <input type="number" id="contact" name="contact" maxlength="11" required><br><br>
+            <div class="mode-of-payment">
+                <label for="payment-method">Mode of Payment</label>
+                <select id="payment-method" name="payment-method">
+                  <option value="credit-card">Credit Card</option>
+                  <option value="debit-card">Debit Card</option>
+                  <option value="paypal">PayPal</option>
+                  <option value="bank-transfer">Bank Transfer</option>
+                  <option value="cash-on-delivery">Cash on Delivery</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+            <br>
+            <br>
+            <button type="button" class="back-btn" id="back-btn">Back</button>
+        </form>
+    </div>
+</div>
+
+
+<footer>
+    <div class="Social-Media">
+        <a href="https://www.facebook.com/maxzinearly.diano"><i class='bx bxl-facebook'></i></a>
+        <a href="https://twitter.com/zXammyyy"><i class='bx bxl-twitter'></i></a>
+        <a href="https://scontent.cdninstagram.com/v/t51.2885-19/438686564_1068875611080108_7609852662092370770_n.jpg?stp=dst-jpg_s200x200&_nc_cat=104&ccb=1-7&_nc_sid=3fd06f&_nc_eui2=AeFZQr6RcMjKfMtTlD7SUJC76hSvp4PTi_jqFK-ng9OL-OTsfx7Ix06r40kKIdRK9fm9uXd_JSf6PbhnVARAE_S7&_nc_ohc=4dY9fZPc8SwAb4NdPOu&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfB2HXOAuG6nKxcUUtzKiCkHe_-_f-9DwB8tWvdA4ACnxw&oe=662218FB&ig_cache_key=NjE5Nzg4NjI4MDM%3D.2-ccb7-5"><i class='bx bxl-instagram'></i></a>
+        <a href="https%3A%2F%2Fwww.tiktok.com%2F%40zxammmy%3F_t%3D8lWqI74BWSt%26_r%3D1&h=AT1uNKHgnRZfGbIC_m3S_mfLz4DxeewfoYQBXeHA6hWfFz7Fn-fYcmViZZnOjyiGtExBwZXLX3WC4gjjWhmu2vpUENGfWKRbUsufy9sOqeIzm6d5nw4DkGJ6FpSS0xI41dGYGg"><i class='bx bxl-tiktok'></i></a>
+    </div>
+</footer>
+
+
+<script src="MENU.js"></script>
+<script src="LogOut.js"></script>
+
+</body>
+</html>

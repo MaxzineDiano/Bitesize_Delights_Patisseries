@@ -1,0 +1,97 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(sweets.png);
+  background-repeat:repeat-x;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 90vh;
+}
+
+.container {
+  width: 40%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-form-container {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+
+.logo {
+  margin-right: 50px;
+  line-height:normal;
+}
+
+.logo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 80%;
+}
+
+form {
+  flex:content;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+  font-family: 'Times New Roman', Times, serif;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-toggle-icon {
+  position: relative;
+margin-left: -30px;
+cursor: pointer;
+}
+
+.password-toggle-icon i:hover {
+    color: #000;
+}
+
+#show-password {
+  display: none;
+}
+
+#show-password + label {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #bf660d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #bc3f09;
+}
