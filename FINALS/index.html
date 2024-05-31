@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login || BiteSize Delights</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Login Form</h1>
+            <div class="logo-form-container">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+                <form id="login-form">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="password-toggle-icon">
+                        <i class='bx bx-low-vision' id="togglePassword"></i>
+                    </span>
+                    <br>
+                    <button type ="submit">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
